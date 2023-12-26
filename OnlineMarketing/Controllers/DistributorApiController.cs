@@ -121,7 +121,7 @@ namespace OnlineMarketing.Controllers
             return BadRequest("კონკრეტული დისტრიბუტორის რეკომენდირებული დისტრიბუტორები ვერ მოიძებნა");
         }
 
-
+        
         [HttpPost("calculate_distributor_bonus")]
         public async Task<IActionResult> CalculateDistributorBonus([FromBody] RecuestViewModel model)
         {
