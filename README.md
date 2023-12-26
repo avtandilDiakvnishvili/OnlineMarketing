@@ -1,7 +1,11 @@
 #make migration
 
 run this command from DataAccess directory.
+
+
 ~/DataAccess> dotnet ef migrations add "AddDatabaseMigration"
+
+
 ~/DataAccess> dotnet ef database update
 
 
